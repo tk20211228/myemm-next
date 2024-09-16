@@ -9,10 +9,22 @@ export default function Header() {
       </Button>
       <span className="flex-1"></span>
       <Button variant="ghost" className="text-md">
-        <Link href="/">デバイス</Link>
+        <Link href="/dashboard">ダッシュボード</Link>
       </Button>
       <Button variant="ghost" className="text-md">
-        <Link href="/">ポリシー</Link>
+        <Link href="/setting">設定</Link>
+      </Button>
+      <Button variant="ghost" className="text-md">
+        <Link href="/device">デバイス</Link>
+      </Button>
+      <Button variant="ghost" className="text-md">
+        <Link href="/policy">ポリシー</Link>
+      </Button>
+      <Button variant="ghost" className="text-md">
+        <Link href="/app-management">アプリ</Link>
+      </Button>
+      <Button variant="ghost" className="text-md">
+        <Link href="/">ログアウト</Link>
       </Button>
     </header>
   );

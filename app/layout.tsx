@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import { cn } from "@/lib/utils";
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "./components/theme-provider";
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin"],
@@ -40,6 +40,7 @@ export default function RootLayout({
           `${geistSans.variable} ${geistMono.variable} antialiased`,
           "min-h-dvh"
         )}
+        suppressHydrationWarning
       >
         <ThemeProvider
           attribute="class"
