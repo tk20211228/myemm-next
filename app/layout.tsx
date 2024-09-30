@@ -7,10 +7,10 @@ import Footer from "./components/footer";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "./components/theme-provider";
 
-const notoSansJP = Noto_Sans_JP({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+// const notoSansJP = Noto_Sans_JP({
+//   subsets: ["latin"],
+//   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+// });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
